@@ -29,21 +29,21 @@ FLAGS = flags.FLAGS
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
     VOC_LABELS = {
-        'coconut': (0, 'coconut'),
-        'coconut': (1, 'coconut'),
-        'coconut': (2, 'coconut'),
-        'coconut': (3, 'coconut'),
-        'coconut': (4, 'coconut'),
-        'coconut': (5, 'coconut'),
-        'coconut': (6, 'coconut'),
-        'coconut': (7, 'coconut'),
-        'coconut': (8, 'coconut'),
-        'coconut': (9, 'coconut'),
-        'coconut': (10, 'coconut'),
-        'coconut': (11, 'coconut'),
-        'coconut': (12, 'coconut'),
-        'coconut': (13, 'coconut'),
-        'coconut': (14, 'coconut'),
+        'dog': (0, 'dog'),
+        'person': (1, 'person'),
+        'cat': (2, 'cat'),
+        'tv': (3, 'tv'),
+        'car': (4, 'car'),
+        'meatballs': (5, 'meatballs'),
+        'marina sauce': (6, 'marinara sauce'),
+        'tomato soup': (7, 'tomato soup'),
+        'chicken noodle soup': (8, 'chicken noodle soup'),
+        'french onion soup': (9, 'french onion soup'),
+        'chicken breast': (10, 'chicken breast'),
+        'ribs': (11, 'ribs'),
+        'pulled pork': (12, 'pulled pork'),
+        'hamburger': (13, 'hamburger'),
+        'cavity': (14, 'cavity'),
         'coconut': (15, 'coconut')}
     return VOC_LABELS[row_label][0]
     # if row_label == 'mobile':
