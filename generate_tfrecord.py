@@ -29,7 +29,21 @@ FLAGS = flags.FLAGS
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
     VOC_LABELS = {
-        'none': (0, 'Background'),
+        'none': (0, 'coconut'),
+        'coconut': (1, 'coconut'),
+        'coconut': (2, 'coconut'),
+        'coconut': (3, 'coconut'),
+        'coconut': (4, 'coconut'),
+        'coconut': (5, 'coconut'),
+        'coconut': (6, 'coconut'),
+        'coconut': (7, 'coconut'),
+        'coconut': (8, 'coconut'),
+        'coconut': (9, 'coconut'),
+        'coconut': (10, 'coconut'),
+        'coconut': (11, 'coconut'),
+        'coconut': (12, 'coconut'),
+        'coconut': (13, 'coconut'),
+        'coconut': (14, 'coconut'),
         'coconut': (15, 'coconut')}
     return VOC_LABELS[row_label][0]
     # if row_label == 'mobile':
